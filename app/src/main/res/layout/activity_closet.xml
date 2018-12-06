@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bfinal"
+    android:orientation="vertical"
+    tools:context="com.example.tawhida.herstory.ClosetActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layout10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_thread"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="Colors Thread"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_taatiana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="তাঁতিয়ানা::taatiana"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_kabbo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="অপরাজিতার কাব্য aporajitar kabbo"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_ours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="OOURS"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_tondraboti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="Tondraboti-তন্দ্রাবতী"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_niladri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="নীলাদ্রিকা-Niladrika"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/layout4"
+                android:background="@android:drawable/menuitem_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_shurasri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="Shurasri-সুওরশ্রী"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/layout2"
+                android:background="@android:drawable/menuitem_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="Desire by SP"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/layout1"
+                android:background="@android:drawable/menuitem_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_wl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:text="WishList"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@android:drawable/menuitem_background"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_boson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?android:attr/scrollbarThumbHorizontal"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="কুমুদিনীর বসন"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+    <item android:title="Categories"></item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_craft"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Craft" />
+        <item
+            android:id="@+id/nav_baker"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Bakery Shop" />
+        <item
+            android:id="@+id/nav_bag"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Bag" />
+        <item
+            android:id="@+id/nav_jwellary"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Jwellary" />
+        <item
+            android:id="@+id/nav_hijab"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Hijab" />
+        <item
+            android:id="@+id/nav_attire"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Islamic Attire" />
+        <item
+            android:id="@+id/nav_beauty"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Beauty and Care" />
+        <item
+            android:id="@+id/nav_painter"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Painter" />
+        <item
+            android:id="@+id/nav_closet"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Woman's Closet" />
+        <item
+            android:id="@+id/nav_hand"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Hand made product" />
+        <item
+            android:id="@+id/nav_kids"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Kids Corner" />
+        <item
+            android:id="@+id/nav_hmp"
+            android:icon="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:title="Home Made product" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/enterpreneur"
+                android:icon="@drawable/ic_people"
+                android:title="Enterpreneurs" />
+            <item
+                android:id="@+id/nav_iiuc"
+                android:icon="@drawable/ic_favorite"
+                android:title="IIUCIANS" />
+        </menu>
+    </item>
+
+</menu>
